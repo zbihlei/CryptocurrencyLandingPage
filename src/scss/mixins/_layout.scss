@@ -27,6 +27,27 @@
   }
 }
 
+@mixin blocksText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &_text{
+      width: 484px;
+      display: flex;
+      flex-direction: column;
+      h3{
+          font-size: 48px;
+          font-family: 'Yukita';
+          line-height: 125%;
+      }
+      span{
+          font-family: 'Inter', sans-serif;
+          font-size: 18px;
+          color: $baseText;
+          line-height: 145%;
+      }
+  }
+}
 // $options: (
 //   parentClass: "cards",
 //   itemsClass: "cards__item",

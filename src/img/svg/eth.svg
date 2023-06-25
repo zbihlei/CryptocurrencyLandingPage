@@ -1,0 +1,20 @@
+<svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="eth" clip-path="url(#clip0_2_6312)">
+<g id="Group">
+<path id="Vector" d="M8.84357 17.1461C13.3301 17.1461 16.9672 13.5091 16.9672 9.02252C16.9672 4.53598 13.3301 0.898926 8.84357 0.898926C4.35703 0.898926 0.719971 4.53598 0.719971 9.02252C0.719971 13.5091 4.35703 17.1461 8.84357 17.1461Z" fill="#627EEA"/>
+<g id="Group_2">
+<path id="Vector_2" d="M9.09631 2.92969V7.43321L12.9027 9.13408L9.09631 2.92969Z" fill="white" fill-opacity="0.602"/>
+<path id="Vector_3" d="M9.09635 2.92969L5.28943 9.13408L9.09635 7.43321V2.92969Z" fill="white"/>
+<path id="Vector_4" d="M9.09631 12.0526V15.1127L12.9053 9.84302L9.09631 12.0526Z" fill="white" fill-opacity="0.602"/>
+<path id="Vector_5" d="M9.09635 15.1127V12.0521L5.28943 9.84302L9.09635 15.1127Z" fill="white"/>
+<path id="Vector_6" d="M9.09631 11.3443L12.9027 9.13419L9.09631 7.43433V11.3443Z" fill="white" fill-opacity="0.2"/>
+<path id="Vector_7" d="M5.28943 9.13419L9.09635 11.3443V7.43433L5.28943 9.13419Z" fill="white" fill-opacity="0.602"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_2_6312">
+<rect width="16.2472" height="16.2472" fill="white" transform="translate(0.719971 0.898926)"/>
+</clipPath>
+</defs>
+</svg>
