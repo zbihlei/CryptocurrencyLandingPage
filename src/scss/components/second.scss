@@ -1,0 +1,70 @@
+@import "../vars";
+@import "../fonts";
+@import "../mixins";
+
+.second{
+    display: flex;   
+}
+
+.left{
+    width: 50%;
+    // margin: 96px 124px 0 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h3{
+        width: 520px;
+        font-family: 'Yukita';
+        font-size: 48px;
+        line-height: 125%;
+        margin-bottom: 48px;
+    }
+    li{
+        position: relative;
+        width: 359px;
+        list-style: none;
+        margin-right: 48px;
+        margin-left: 62px;
+        padding-bottom: 32px;
+        h5{
+            font-family: 'Yukita';
+            font-size: 24px;
+            line-height: 125%;
+            margin-bottom: 8px;
+        }
+        span{
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            line-height: 150%;
+            color: $baseText;    
+        }
+    }
+    li:nth-child(even){
+        border-top: 1px solid $borders;
+        border-bottom: 1px solid $borders;
+        padding: 32px 0;
+    }
+    li:last-child{
+        padding-top: 32px;
+        padding-bottom: 0;
+    }
+    li:first-child::before{
+        content: '01';
+        @include list-before;
+    }
+    li:nth-child(even)::before{
+        content:'02';
+        @include list-before;
+    }
+    li:last-child::before{
+        content:'03';
+        @include list-before;
+    }
+}
+.right{
+    width: 50%;
+    img{
+       height: 100%;
+    }
+}

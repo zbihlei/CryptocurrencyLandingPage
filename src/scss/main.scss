@@ -4,28 +4,16 @@
 @import "settings";
 
 @import"./components/headsection";
-@import"./components/aboutme.scss";
-@import"./components/experience.scss";
-@import"./components/skills.scss";
-@import"./components/works.scss";
-@import"./components/prices.scss";
-@import"./components/contacts.scss";
-@import"./components/media.scss";
+@import"./components/second";
+@include font-face('Yukita','YukitaSans-Bold','bold','normal');
+@include font-face('Yukita reg','YukitaSans-Regular','regular','normal');
+
 *{
-    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
-
 .container {
-    width: 1140px;
+    width: 1440px;
     margin: 0 auto;
 }
-.divider{
-    height: 3px;
-    width: 70px;
-    margin:25px auto 25px auto;
-    background-color:$main-color;
-}
-
 
