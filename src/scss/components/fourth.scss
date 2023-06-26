@@ -39,6 +39,9 @@
             &:first-child{
                 border-right: 1px solid $borders;
             }
+            &:hover{
+                color: $blue;
+            }
         }
     }
     &__second{

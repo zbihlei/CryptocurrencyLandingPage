@@ -1,0 +1,63 @@
+@import "../vars";
+@import "../fonts";
+@import "../mixins";
+
+.sixth{
+    display: flex;
+    flex-direction: column;
+    margin-top: 96px!important;
+    // background-color: #F8F8FC;
+    background: linear-gradient(180deg, #fff 55%, #F8F8FC 45%);
+}
+
+.upper{
+    margin-top: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h3{
+        text-align: center;
+        font-size: 48px;
+        font-family: 'Yukita';
+        line-height: 125%;
+        width: 515px;
+        margin-bottom: 16px;
+    }
+    span{
+        font-size: 18px;
+        font-family: 'Inter', sans-serif;
+        line-height: 145%;
+        color: $baseText;
+    }
+}
+
+.lower{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    &__item{
+        background-color: #fff;
+        border: 1px solid $borders;
+        border-radius: 20px;
+        width: 383px;
+        padding: 40px 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h6{
+            font-size: 24px;
+            font-family: 'Yukita';
+            line-height: 125%;
+            margin: 16px 0;
+        }
+        span{
+            text-align: center;
+            color: $baseText;
+            font-size: 16px;
+            line-height: 150%;
+        }
+    }
+}
