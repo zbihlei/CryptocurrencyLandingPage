@@ -1,0 +1,73 @@
+@import "../vars";
+@import "../fonts";
+@import "../mixins";
+section{
+    position: relative;
+}
+.seventh{
+    h3{
+        font-size: 48px;
+        font-family: 'Yukita';
+        line-height: 125%;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+}
+.wrapper{
+    margin: 0 120px;
+    display: flex;
+    flex-direction: row;
+}
+.col{
+    margin-right: 20px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 282px;
+    grid-template-rows: repeat(3, min-content);
+    &:last-child{
+        margin-right: 0;
+    }
+}
+.item{
+    height: fit-content;
+    border: 1px solid $borders;
+    border-radius: 10px;
+    padding: 20px;
+    &__head{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     img{
+        margin-right: 10px;
+        padding-bottom: 20px;
+     }
+     div{
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        font-family: 'Yukita';
+        line-height: 160%;  
+        span{
+            font-size: 12px;
+            font-family: 'Inter', sans-serif;
+            color: $baseText;
+            line-height: 170%;
+            }
+        }
+    }
+    .text{
+        font-size: 14px;
+        color: $baseText;
+        line-height: 160%;
+        font-family: 'Inter', sans-serif;
+    }
+}
+
+.blur{
+    position: absolute;
+    bottom: -10px;
+    left: 120px;
+}
+
+
